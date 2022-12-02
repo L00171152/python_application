@@ -1,6 +1,6 @@
 FROM python
 
-COPY new.py /opt
+COPY . /opt
 
 RUN pip install flask
 
